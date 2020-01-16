@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+{% include head.html %}
 
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
-  <body>
+<body>
+  {% include header.html %}
+  <ul>
     {% for post in site.posts %}
       {% if page.category %}
-
         {% if post.category == page.category %}
-          <li> {{ post.title }} - {{ post.category }} </li>
+          <li>
+            
+            <a href="{{ post.url  | relative_url }}">{{ post.title }} - {{ post.category }}</a>
+          </li>
         {% endif %}
-
       {% else %}
-        <li> {{ post.title }} - {{ post.category }} </li>
+        <li>
+          <a href="{{ post.url  | relative_url }}">{{ post.title }} - {{ post.category }}</a>
+        </li>
       {% endif %}
+    {% endfor %}
+  </ul>
 
-    {% endfor%}
+  {{ content}}
+</body>
 
-    {{ content}}
-  </body>
 </html>
