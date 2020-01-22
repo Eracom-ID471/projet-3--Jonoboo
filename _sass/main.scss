@@ -13,3 +13,57 @@ height: auto;
 max-width: 500px;
 width: 100%;
 }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav{
+  float: left;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20%;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav a:hover {
+  background-color: #111;
+}
+
+
+
+
+.home {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+.button a:hover {
+  background-color: #111;
+}
+
+
+
+.button {
+
+  background-color: #E4C2C6;
+  border: none;
+  color: white;
+  padding:14px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+
+}
