@@ -3,6 +3,7 @@
 {% include head.html %}
 
 <body>
+
   {% include header.html %}
   <ul>
     {% for post in site.posts %}
@@ -27,6 +28,7 @@
   </ul>
 
   {{ content}}
+  {% include footer.html %}
 </body>
 
 </html>
