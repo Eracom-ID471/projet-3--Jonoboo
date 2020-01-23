@@ -3,11 +3,11 @@ baseurl: "/projet-3--Jonoboo" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
 navigation:
-  - title: Spring Recipes
+  - title: Spring
     url: /spring.html
-  - title: Autumn Recipes
+  - title: Autumn
     url: /autumn.html
-  - title: Summer Recipes
+  - title: Summer
     url: /summer.html
-  - title: Winter Recipes
+  - title: Winter 
     url: /winter.html

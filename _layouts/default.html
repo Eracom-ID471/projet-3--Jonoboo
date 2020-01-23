@@ -15,11 +15,13 @@
           </li>
         {% endif %}
       {% else %}
-        <li>
-          <a href="{{ post.url  | relative_url }}">
-            {{ post.title }}
-          </a>
-        </li>
+        <div class"list_all">
+
+            <a href="{{ post.url  | relative_url }}">
+              {{ post.title }}
+            </a>
+
+        </div>
       {% endif %}
     {% endfor %}
   </ul>

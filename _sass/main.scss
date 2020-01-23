@@ -3,13 +3,68 @@ $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
 body {
-  background: $backgroundColor;
+  background: #EDE9EB;
   color: $bodyColor;
   font-family: $bodyFont;
 }
 
 .petit {
 height: auto;
-max-width: 500px;
+max-width:100%;
 width: 100%;
+}
+
+header {
+  padding: 1%;
+  padding-left: 6%;
+  text-align: cente0;
+  background: white;
+  color: white;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  align-items:  stretch;
+}
+          .btn:hover {
+          background-color: #25211D;
+          }
+
+.nav-menu{
+  margin: 35px;
+  font-family: Mrs Sheppards;
+  font-size: 50px;
+}
+.nav-category{
+  margin: 2%;
+  text-align: center;
+}
+          .nav-category:hover {
+          color: white;
+          }
+
+.nav-category-lign{
+  padding-left: 0px;
+  margin-top: 18px;
+}
+
+.list_all {
+  font-family: cursive;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
